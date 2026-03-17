@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+/*container 1 section 1*/
+.container-1-content{
+    background-image: url(../img/jumbo-bg.png);
+    display: inline-block;
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 15px;
+    color: white;
+    vertical-align: bottom;
+    position: relative
+    
+}
+
+.banner-img{
+    width: 300px;
+    display: inline-block;
+    margin-top: 40%;
+    margin-bottom: 20px;
+}
+
+.container-1-title{
+    margin-bottom: 25px;
+    
+}
+
+.container-1-p{
+    margin-bottom: 30px;
+    
+}
+
+.container-btn{
+    border-radius: 20px;
+}
