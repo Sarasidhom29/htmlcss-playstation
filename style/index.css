@@ -66,9 +66,26 @@ body{
     font-weight: 750;
 }
 
-/**/
+/*section 3*/
+.ps5-img{
+    display: inline-block;
+    width: 100vw;
+}
+
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.container-img-item{
+    width: calc(100% / 3);
+}
+
+
+/*section 4*/
 .container-it-takes-two{
-     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     display: inline-block;
     width: 100vw;
     height: 90vh;
@@ -94,3 +111,14 @@ body{
     text-align: left;
     color: white;
 }
+
+/*sezione 6*/
+.section-6{
+    text-align: center;
+}
+
+.ps-img{
+    display: inline-block;
+    width: 100vw;
+}
+
