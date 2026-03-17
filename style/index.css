@@ -31,10 +31,10 @@ body{
     
 }
 
-.banner-img{
+.banner1-img{
     width: 300px;
     display: inline-block;
-    margin-top: 40%;
+    margin-top: 35%;
     margin-bottom: 20px;
 }
 
@@ -64,4 +64,26 @@ body{
     text-align: center;
     margin-top: 60px;
     font-weight: 750;
+}
+
+/**/
+.container-it-takes-two{
+     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    display: inline-block;
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 15px;
+    color: white;
+    vertical-align: bottom;
+    position: relative
+}
+
+.banner-img{
+    width: 300px;
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 20px;
 }
