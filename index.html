@@ -15,9 +15,37 @@
 <body>
     <header>
         <!--nav bar-->
-        <nav class="navbar sticky-top bg-dark">
+        <nav class="navbar fixed-top navbar-top bg-dark border-bottom">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">SONY</a>
+                <a class="navbar-brand ms-auto text-white fw-bold fs-6 p-0" href="#">SONY</a>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm" style="margin-top: 32px;">
+            <div class="container-fluid">
+                <!-- Logo SINISTRA -->
+                <a class="navbar-brand p-0 me-3 mb-2 mb-lg-0 " href="#">
+                    <img src="./img/play_logo.svg" alt="Logo" height="40" class="navbar-logo">
+                </a>
+
+                <!-- Hamburger -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Giochi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Hardware</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Servizi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Novità</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Fai acquisti</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Supporto</a></li>
+
+                    </ul>
+
+                </div>
             </div>
         </nav>
     </header>
@@ -27,7 +55,8 @@
             <div class="container container-1">
 
                 <div class="container-1-content">
-                    <img src="./img/returnal-hero-banner-logo.png" alt="logo del videogioco Returnal" class="banner-img">
+                    <img src="./img/returnal-hero-banner-logo.png" alt="logo del videogioco Returnal"
+                        class="banner-img">
                     <h1 class="container-title container-1-title">
                         Rompi il cerchio
                     </h1>

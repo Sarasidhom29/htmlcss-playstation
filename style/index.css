@@ -8,6 +8,13 @@ body{
 
 }
 
+/*navbar 2*/
+.navbar-logo{
+    display: inline-block;
+    width: 100%;
+}
+
+
 /*container 1 section 1*/
 .container-1-content{
     background-image: url(../img/jumbo-bg.png);
