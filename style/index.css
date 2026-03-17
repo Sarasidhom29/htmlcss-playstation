@@ -122,3 +122,42 @@ body{
     width: 100vw;
 }
 
+
+
+/*sezione 8*/
+.container-img-sec8-item{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*sezione 9*/
+.sezione-9{
+    background-color: darkblue;
+    width: 100vw;
+}
+
+.btn-ps-now{
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+/*sezione 10*/
+.social-title{
+    margin-bottom: 50px;
+}
+
+.container-social{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container-social-item{
+    width: calc(90% / 2);
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
